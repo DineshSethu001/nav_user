@@ -1,0 +1,6 @@
+@use "../variable/cf" as color ;
+
+@function b-color($varient:"primary"){
+    @return map-get(color.$color-theme,$varient);
+
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  font-family: "Alkalami", serif;
+  background-color: rgb(57, 53, 53);
+  background-image: "color.jpg";
+}
+
+nav {
+  margin-top: 200px;
+  text-align: center;
+}
+nav ul {
+  display: inline-block;
+  list-style: none;
+  transform: skew(-25deg);
+}
+nav ul li {
+  background-color: white;
+  float: left;
+  color: rgb(10, 1, 11);
+  text-transform: uppercase;
+  font-weight: 400;
+  transition: all 0.2s linear;
+  border: 3px solid rgb(9, 208, 243);
+}
+nav ul li a {
+  color: inherit;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  transform: skew(25deg);
+}
+
+li:hover {
+  box-shadow: 1.95px 1.95px 2.6px rgb(241, 234, 234);
+  background-color: rgb(213, 227, 14);
+}
+
+/* top-left top-right bottom-right bottom-left*/
+li:first-child {
+  border-radius: 7px 0 0 7px;
+}
+
+li:last-child {
+  border-radius: 0 7px 7px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
